@@ -1,0 +1,32 @@
+# === Global ===
+.env
+*.pyc
+__pycache__/
+*.log
+*.sqlite3
+.DS_Store
+*.pdf
+
+# === Frontend (Next.js on Vercel) ===
+frontend/node_modules/
+frontend/.next/
+frontend/.vercel/
+frontend/.turbo/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+
+# === Backend (FastAPI / Python) ===
+backend/env/
+backend/.venv/
+backend/.env
+backend/__pycache__/
+backend/src/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.coverage
+backend/htmlcov/
+
+# === IDE ===
+.vscode/
+.idea/
